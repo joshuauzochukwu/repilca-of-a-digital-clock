@@ -1,0 +1,62 @@
+body{
+    margin:0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-image:url("https://media.istockphoto.com/id/644697504/photo/hawaiian-sunset-on-the-north-shore-of-oahu.jpg?s=1024x1024&w=is&k=20&c=H_lqAOy7er7uxqPmSra4mKqTx3XDzaiA3ms7f6i8Bhc="); 
+    background-size: cover; 
+   
+}
+h4{
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.clock{
+    display: flex;
+
+}
+.clock div{
+    margin: 19px;
+    position: relative ;
+}
+
+.clock span{
+    width: 100px;
+    height:80px ;
+    background: whitesmoke;
+    opacity: .8;
+    color:brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+     
+
+     
+}
+.clock .text{
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: mistyrose;
+    opacity: 0.8;
+}
+
+.clock #ampm{
+    bottom: 0%;
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    size: 5px;
+    background: mistyrose;
+
+}
